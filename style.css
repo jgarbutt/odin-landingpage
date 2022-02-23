@@ -25,10 +25,12 @@ a{
     align-items: center;
 }
 
+/* header */
+
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px 10% 15px 10%;
 }
 
 .logo{
@@ -42,18 +44,32 @@ a{
     gap: 15px;
 }
 
+/* intro banner */
+
 .intro{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .intro-text{
     display: flex;
     flex-direction: column;
     text-align: left;
+    max-width: 500px;
+    margin-right: 35px;
 }
 
-.intro-image{
-    border: 1px lightgray;
+.placeholder{
+    background-color: #777777;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    margin: 100px 0 100px 0;
+}
+
+/* gallery */
+.gallery .title{
+    margin-top: 25px;
 }
